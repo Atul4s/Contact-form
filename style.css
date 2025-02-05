@@ -40,6 +40,7 @@ nav a {
     background-color: rgba(0, 0, 0, 0.5);
     display: grid;
     place-content: center;
+    border-radius: 10px;
 
 }
 
@@ -97,3 +98,39 @@ margin: 20px 0;
 
 #btn:hover {
     background-color: #0056b3; }
+
+
+    @media (max-width : 960px){
+
+        .container{
+
+            
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+          align-items: center;
+           justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 50px;
+            
+        }
+        body {
+            
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            flex-direction: column;
+            
+
+        
+        }
+
+        .container  h1{
+            color: aliceblue;
+            padding: 20px 0;
+            margin-left: 10%;
+            font-family: "Delius", serif;
+            
+        
+        }
+    }
