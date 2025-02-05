@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    background-image: url(bc.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    text-align: center; /* Center the navigation items */
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff8f8;
+    font-weight: bold;
+    font-family: "Delius", serif;
+}
+
+.container{
+
+    height: 500px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    place-content: center;
+
+}
+
+
+h1{
+    color: aliceblue;
+    padding: 20px 0;
+    margin-left: 20%;
+    font-family: "Delius", serif;
+
+}
+
+.from-group{
+
+width: 400px;
+margin: 20px 0;
+
+
+}
+
+.from-group input{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-family: "Delius", serif;
+
+}
+
+.from-group textarea{
+
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+    padding: 20px;
+    font-family: "Delius", serif;
+   
+}
+
+#btn{
+
+    background-color: #007bff; 
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #0056b3; }
